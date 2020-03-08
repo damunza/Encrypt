@@ -1,8 +1,8 @@
 package app
 
-import db "Go_Projects/Encrypt/app/dbs"
-import "fmt"
+// import db "Go_Projects/Encrypt/app/dbs"
+// import "fmt"
 
-func something(){
-	fmt.Println("app works")
+func Something(i string) string{
+	return "app connected" + i
 }
