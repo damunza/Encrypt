@@ -1,9 +1,7 @@
 package app
 
-import(
-	_"Go_Projects/Encrypt/app/dbs"
-	"fmt"
-)
+import db "Go_Projects/Encrypt/app/dbs"
+import "fmt"
 
 func something(){
 	fmt.Println("app works")
