@@ -1,7 +1,7 @@
 package app
 
 import(
-	"Go_Projects/Encrypt/app/dbs"
+	_"Go_Projects/Encrypt/app/dbs"
 	"fmt"
 )
 
