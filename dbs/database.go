@@ -1,7 +1,7 @@
 package dbs
 
 import (
-	_ "github.com/go-sql-driver/mysql"
+	_ "github.com/go-sql-driver/mysql" // prevent lag by not locally hsting
 	"database/sql"
 	"errors"
 	"fmt"
