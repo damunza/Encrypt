@@ -6,6 +6,7 @@ import "fmt"
 
 // Something is just a method to pretest installation of the app package
 func Something(i string) string{
-	fmt.Println(dbs.dbLink())
+	db := dbs.dbLink()
+	fmt.Println(db)
 	return "app connected" + i
 }
