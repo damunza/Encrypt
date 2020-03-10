@@ -13,4 +13,4 @@ func Something(i string) string{
 	return "app connected" + i
 }
 
-
+// Errormessage(name)
